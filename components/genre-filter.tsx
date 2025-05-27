@@ -127,7 +127,7 @@ export default function GenreFilter({ type, onGenreSelect }: GenreFilterProps) {
             size="sm"
             onClick={() => handleGenreSelect(genre.id)}
             disabled={loading}
-            className={`text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8 ${
+            className={`text-xs sm:text-sm px-2 sm:px-3 h-7 sm:h-8 bg-red-600 ${
               selectedGenre === genre.id ? "bg-red-600 hover:bg-red-700" : ""
             }`}
           >
