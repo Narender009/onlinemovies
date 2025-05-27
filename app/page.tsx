@@ -236,7 +236,7 @@ export default function HomePage() {
               <Search className="h-4 w-4" />
             </Button>
             {searchQuery && (
-              <Button type="button" onClick={clearSearch} variant="outline" className="px-3 sm:px-4 text-xs sm:text-sm">
+              <Button type="button" onClick={clearSearch} variant="outline" className="px-3 sm:px-4 text-xs sm:text-sm bg-red-600">
                 Clear
               </Button>
             )}
