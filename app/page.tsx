@@ -10,6 +10,7 @@ import MovieCard from "@/components/movie-card"
 import TVCard from "@/components/tv-card"
 import GenreFilter from "@/components/genre-filter"
 import Pagination from "@/components/pagination"
+import Footer from "@/components/footer"
 import {
   getPopularMovies,
   getPopularTVShows,
@@ -420,6 +421,8 @@ export default function HomePage() {
           </Tabs>
         )}
       </main>
+            {/* Footer */}
+      <Footer />
     </div>
   )
 }
