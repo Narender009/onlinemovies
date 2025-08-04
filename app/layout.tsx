@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: 'online movie',
   description: 'Created with v0',
   generator: 'v0.dev',
+    icons: {
+    icon: '/favicon.ico', // Path to your logo or favicon
+  },
 }
 
 export default function RootLayout({
