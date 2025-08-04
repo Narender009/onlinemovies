@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.dev',
     icons: {
-    icon: '/favicon.ico', // Path to your logo or favicon
+    icon: '/public/favicon.ico.jpeg', // Path to your logo or favicon
   },
 }
 
