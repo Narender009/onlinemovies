@@ -220,7 +220,7 @@ export default function HomePage() {
           <div className="flex items-center justify-between mb-4 sm:mb-6">
             <div className="flex items-center space-x-2">
               <Film className="h-6 w-6 sm:h-8 sm:w-8 text-red-500" />
-              <h1 className="text-xl sm:text-3xl font-bold">MovieStream</h1>
+              <h1 className="text-xl sm:text-3xl font-bold">Online Movie</h1>
             </div>
           </div>
 
