@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: 'Created with v0',
   generator: 'v0.dev',
     icons: {
-    icon: '/placeholder-logo', // Path to your logo or favicon
+    icon: 'public/favicon', // Path to your logo or favicon
   },
 }
 
