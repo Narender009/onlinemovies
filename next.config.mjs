@@ -8,6 +8,7 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    formats: ['public/favicon', 'public/favicon'],
   },
 }
 
